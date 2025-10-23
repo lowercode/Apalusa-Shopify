@@ -43,7 +43,7 @@
         "reduce_padding": false,
         "logo": "shopify://shop_images/Logo_Negro-01.svg",
         "logo_max_width": 70,
-        "logo_mobile_max_width": 100,
+        "logo_mobile_max_width": 40,
         "menu": "main-menu",
         "sidebar_menu": "",
         "menu_open_trigger": "hover",
