@@ -752,6 +752,47 @@
         "content": "",
         "popover_title": "Nuestros looks"
       }
+    },
+    "before_after_FHVVUr": {
+      "type": "before-after",
+      "blocks": {
+        "before_gLkfrt": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "text": "Before",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        },
+        "after_cCUUWJ": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "text": "After",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "before_gLkfrt",
+        "after_cCUUWJ"
+      ],
+      "name": "t:sections.before_after.presets.before_after.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "ELIGE TU ESTILO",
+        "content": "",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
     }
   },
   "order": [
@@ -771,6 +812,7 @@
     "scrolling_content_PBFmaN",
     "featured_collections_V8jpRg",
     "video_GheUir",
-    "shop_the_look_hbwAXw"
+    "shop_the_look_hbwAXw",
+    "before_after_FHVVUr"
   ]
 }
