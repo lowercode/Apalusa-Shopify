@@ -83,60 +83,6 @@
         "subheading": "Los más vendidos"
       }
     },
-    "multi-column": {
-      "type": "multi-column",
-      "blocks": {
-        "column-1": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "column-2": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "column-3": {
-          "type": "image_with_text",
-          "settings": {
-            "title": "Column title",
-            "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-1",
-        "column-2",
-        "column-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "columns_per_row": 3,
-        "stack_on_mobile": false,
-        "overlap_image": false,
-        "content_alignment": "start",
-        "text_alignment": "start",
-        "spacing": "md",
-        "subheading": "About",
-        "title": "Multi-column",
-        "content": ""
-      }
-    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
@@ -899,12 +845,67 @@
         "enable_parallax": true,
         "remove_vertical_spacing": true
       }
+    },
+    "multi-column": {
+      "type": "multi-column",
+      "blocks": {
+        "column-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/diseno_862c63ca-f92d-4fa3-b810-97ece9fca38f.jpg",
+            "title": "El diseño",
+            "heading_tag": "h5",
+            "content": "<p>Proviniente de nuestras ideas más creativas. Buscamos un estilo provocador, elegante, gen</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "column-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Materiales_2.jpg",
+            "title": "El material",
+            "heading_tag": "h5",
+            "content": "<p>Piel de vaca finamente seleccionada por nuestras propias manos, buscando siempre la mejor calidad.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "column-3": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/El_oficio.jpg",
+            "title": "El oficio",
+            "heading_tag": "h5",
+            "content": "<p>Don Toño siempre trabaja con el alma, y eso es despacio y cuidadosamente. No producimos nada en serie, las piezas son un proceso artesanal, donde muchas emociones van contenidas. Trabajamos siempre felices.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-1",
+        "column-2",
+        "column-3"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "sm",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
     }
   },
   "order": [
     "slideshow",
     "featured-collections",
-    "multi-column",
     "collection-list",
     "before-after",
     "multiple-media-with-text",
@@ -920,6 +921,7 @@
     "before_after_FHVVUr",
     "image-with-text-scroll",
     "featured_product_XLAzzJ",
-    "image_with_text_block_7Diqkb"
+    "image_with_text_block_7Diqkb",
+    "multi-column"
   ]
 }
