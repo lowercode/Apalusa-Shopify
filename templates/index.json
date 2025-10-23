@@ -147,6 +147,7 @@
         "column-2",
         "column-3"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -269,6 +270,7 @@
         "collection-5",
         "collection-6"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -311,6 +313,7 @@
         "before",
         "after"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -365,6 +368,7 @@
         "item-2",
         "item-3"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "image_position": "start",
@@ -394,6 +398,7 @@
         "image-1",
         "image-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "reveal_on_scroll": true,
@@ -418,6 +423,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -455,6 +461,7 @@
       "block_order": [
         "look-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -466,6 +473,7 @@
     },
     "blog-posts": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
