@@ -359,41 +359,6 @@
         "overlay_opacity": 0
       }
     },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look-1": {
-          "type": "look",
-          "settings": {
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Shop the look",
-        "content": "",
-        "popover_title": "Shop the look"
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "disabled": true,
@@ -796,6 +761,144 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "featured_product_XLAzzJ": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_EtXamL": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_JY9NPR": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_KUmCRD": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_knamQY": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_aUriV9": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_C6QBfY": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_MNAVCj": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_z3CAnk": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_dqirqf": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_yC9Ybt": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_9DHX6r": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_hVmGQr": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_EtXamL",
+        "title_JY9NPR",
+        "badges_KUmCRD",
+        "price_knamQY",
+        "rating_aUriV9",
+        "payment_terms_C6QBfY",
+        "separator_MNAVCj",
+        "description_z3CAnk",
+        "variant_picker_dqirqf",
+        "quantity_selector_yC9Ybt",
+        "buy_buttons_9DHX6r",
+        "pickup_availability_hVmGQr"
+      ],
+      "name": "t:sections.featured_product.presets.featured_product.name",
+      "settings": {
+        "color_scheme": "",
+        "product": "",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 45,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "Nuestra selección",
+        "title": "Producto de la semana",
+        "content": ""
+      }
+    },
+    "image_with_text_block_7Diqkb": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_yqATBN": {
+          "type": "subheading",
+          "settings": {
+            "text": "MATERIALES"
+          }
+        },
+        "richtext_aFjUAG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Personalmente seleccionadas de las mejores paleterías mexicana, nuestras pieles son elegidas por su resistencia, durabilidad y textura. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yqATBN",
+        "richtext_aFjUAG"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "sm",
+        "image": "shopify://shop_images/Materiales.jpg",
+        "content_width": "sm",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
@@ -806,7 +909,6 @@
     "before-after",
     "multiple-media-with-text",
     "newsletter",
-    "shop-the-look",
     "blog-posts",
     "rich_text_8BVY3G",
     "media_grid_iAyyjY",
@@ -816,6 +918,8 @@
     "video_GheUir",
     "shop_the_look_hbwAXw",
     "before_after_FHVVUr",
-    "image-with-text-scroll"
+    "image-with-text-scroll",
+    "featured_product_XLAzzJ",
+    "image_with_text_block_7Diqkb"
   ]
 }
