@@ -656,6 +656,36 @@
         "background": "",
         "text_color": ""
       }
+    },
+    "featured_collections_V8jpRg": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_tpwBeT": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_tpwBeT"
+      ],
+      "name": "Featured collections | Ideales para viajar",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Ideales para viajar"
+      }
     }
   },
   "order": [
@@ -672,6 +702,7 @@
     "rich_text_8BVY3G",
     "media_grid_iAyyjY",
     "scrolling_content_djWiJe",
-    "scrolling_content_PBFmaN"
+    "scrolling_content_PBFmaN",
+    "featured_collections_V8jpRg"
   ]
 }
