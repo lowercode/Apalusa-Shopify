@@ -485,12 +485,6 @@
             "heading_tag": "h1"
           }
         },
-        "richtext_i6NpgB": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
         "link_eTzFGq": {
           "type": "link",
           "settings": {
@@ -502,7 +496,6 @@
       "block_order": [
         "image_NRJLBW",
         "heading_zBPGJe",
-        "richtext_i6NpgB",
         "link_eTzFGq"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
@@ -512,6 +505,156 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_iAyyjY": {
+      "type": "media-grid",
+      "blocks": {
+        "image_MAUGAp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Bolsos.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gK4GUb": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Monederos.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QEyAJE": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/Bum_bags.jpg",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MAUGAp",
+        "image_gK4GUb",
+        "image_QEyAJE"
+      ],
+      "name": "t:sections.media_grid.presets.media_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "scrolling_content_djWiJe": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_YJxbHk": {
+          "type": "text",
+          "settings": {
+            "text": "New Arrivals"
+          }
+        },
+        "image_nAj4kM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/New_Arrivals.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_YJxbHk",
+        "image_nAj4kM"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 20,
+        "text_font_size_desktop": 64,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "scrolling_content_PBFmaN": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_p74tAT": {
+          "type": "text",
+          "settings": {
+            "text": "New: Peluda Collection"
+          }
+        },
+        "image_dEezBa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Peluda_Collection.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_p74tAT",
+        "image_dEezBa"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 20,
+        "text_font_size_desktop": 64,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
       }
     }
   },
@@ -526,6 +669,9 @@
     "newsletter",
     "shop-the-look",
     "blog-posts",
-    "rich_text_8BVY3G"
+    "rich_text_8BVY3G",
+    "media_grid_iAyyjY",
+    "scrolling_content_djWiJe",
+    "scrolling_content_PBFmaN"
   ]
 }
