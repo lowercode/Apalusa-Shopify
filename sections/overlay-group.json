@@ -27,7 +27,6 @@
     },
     "newsletter-popup": {
       "type": "newsletter-popup",
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "apparition_delay": 5,
@@ -35,8 +34,8 @@
         "hide_for_account_holders": true,
         "show_only_once": true,
         "show_newsletter_form": true,
-        "title": "Signup for our newsletter",
-        "content": "Describe what your customers will receive when subscribing to your newsletter.",
+        "title": "Suscríbete a nuestro newsletter",
+        "content": "",
         "button_text": "Subscribe"
       }
     },
