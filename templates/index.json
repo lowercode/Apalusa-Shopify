@@ -301,58 +301,6 @@
         "cursor_arrows_color": "#000000"
       }
     },
-    "image-with-text-scroll": {
-      "type": "images-with-text-scroll",
-      "blocks": {
-        "item-1": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#1",
-            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "item-2": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "item-3": {
-          "type": "image_with_text",
-          "settings": {
-            "subheading": "",
-            "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "image_position": "start",
-        "text_alignment": "center",
-        "heading_tag": "h3",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "multiple-media-with-text": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -793,6 +741,61 @@
         "cursor_background": "#ffffff",
         "cursor_arrows_color": "#000000"
       }
+    },
+    "image-with-text-scroll": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "item-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Diseno.jpg",
+            "subheading": "",
+            "title": "EL DISEÑO",
+            "content": "<p>Nuestras piezas son creadas siempre con intención de marcar la diferencia, explorar nuestra creatividad y de quien porta la pieza. Nos atrevemos a ser diferentes. </p><p>Retamos a la moda, y buscamos originalidad.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "item-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Compromiso.jpg",
+            "subheading": "",
+            "title": "NUESTRO COMPROMISO:",
+            "content": "<p>Ofrecer piezas de alta calidad, con alma mexicana y de piel resistente y durable, con diseños que destaquen y denoten autenticidad.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "item-3": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "subheading": "",
+            "title": "#3",
+            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "background_image": "shopify://shop_images/fondo.jpg",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -801,7 +804,6 @@
     "multi-column",
     "collection-list",
     "before-after",
-    "image-with-text-scroll",
     "multiple-media-with-text",
     "newsletter",
     "shop-the-look",
@@ -813,6 +815,7 @@
     "featured_collections_V8jpRg",
     "video_GheUir",
     "shop_the_look_hbwAXw",
-    "before_after_FHVVUr"
+    "before_after_FHVVUr",
+    "image-with-text-scroll"
   ]
 }
