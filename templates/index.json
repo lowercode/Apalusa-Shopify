@@ -17,8 +17,8 @@
           "settings": {
             "image": "shopify://shop_images/IMG_2518.jpg",
             "mobile_image": "shopify://shop_images/IMG_2517.jpg",
-            "subheading": "Tell your story",
-            "title": "Image slide",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
