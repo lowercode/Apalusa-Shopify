@@ -206,47 +206,6 @@
         "content": ""
       }
     },
-    "before-after": {
-      "type": "before-after",
-      "blocks": {
-        "before": {
-          "type": "before",
-          "settings": {
-            "color_scheme": "",
-            "text": "Before",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        },
-        "after": {
-          "type": "after",
-          "settings": {
-            "color_scheme": "",
-            "text": "After",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "before",
-        "after"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "cursor_direction": "horizontal",
-        "cursor_initial_position": 50,
-        "cursor_background": "#ffffff",
-        "cursor_arrows_color": "#000000"
-      }
-    },
     "multiple-media-with-text": {
       "type": "multiple-media-with-text",
       "blocks": {
@@ -288,21 +247,6 @@
         "button_2_text": "",
         "button_2_link": "",
         "button_2_style": "solid"
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.</p>",
-        "button_text": "Subscribe",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "blog-posts": {
@@ -901,15 +845,70 @@
         "title": "",
         "content": ""
       }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "md",
+        "image": "shopify://shop_images/newslette.jpg",
+        "subheading": "",
+        "title": "Suscríbete a nuestro newsletter",
+        "content": "",
+        "button_text": "Suscríbete",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "image_with_text_overlay_n6ipQa": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_wpYTg7": {
+          "type": "subheading",
+          "settings": {
+            "text": "Apalusa"
+          }
+        },
+        "heading_kx7bGT": {
+          "type": "heading",
+          "settings": {
+            "text": "De Don Toño para ti.",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_zQ3xbL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>100% en línea, de nosotros directamente, sin intermediarios.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wpYTg7",
+        "heading_kx7bGT",
+        "richtext_zQ3xbL"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     }
   },
   "order": [
     "slideshow",
     "featured-collections",
     "collection-list",
-    "before-after",
     "multiple-media-with-text",
-    "newsletter",
     "blog-posts",
     "rich_text_8BVY3G",
     "media_grid_iAyyjY",
@@ -922,6 +921,8 @@
     "image-with-text-scroll",
     "featured_product_XLAzzJ",
     "image_with_text_block_7Diqkb",
-    "multi-column"
+    "multi-column",
+    "newsletter",
+    "image_with_text_overlay_n6ipQa"
   ]
 }
