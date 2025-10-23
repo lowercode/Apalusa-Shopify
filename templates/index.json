@@ -274,9 +274,9 @@
         "image_NRJLBW": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Logo_Negro-01.svg",
+            "image": "shopify://shop_images/LogoWhitev2.jpg",
             "width_mode": "custom",
-            "max_width": 150,
+            "max_width": 220,
             "mobile_max_width": 110
           }
         },
