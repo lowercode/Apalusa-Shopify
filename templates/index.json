@@ -15,6 +15,8 @@
         "image_arPNJw": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/IMG_2518.jpg",
+            "mobile_image": "shopify://shop_images/IMG_2517.jpg",
             "subheading": "Tell your story",
             "title": "Image slide",
             "mobile_text_position": "place-self-center text-center",
