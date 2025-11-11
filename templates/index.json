@@ -478,7 +478,7 @@
         "collection_tpwBeT": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "porta-pasaporte",
             "products_count": 8,
             "title": "",
             "link_url": "",
