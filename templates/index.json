@@ -540,9 +540,9 @@
           "settings": {
             "image": "shopify://shop_images/Nuestros_looks.jpg",
             "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 35,
-            "product_1_vertical_position": 35,
+            "product_1": "media-luna-holstein",
+            "product_1_horizontal_position": 58,
+            "product_1_vertical_position": 53,
             "product_2": "",
             "product_2_horizontal_position": 34,
             "product_2_vertical_position": 65,
