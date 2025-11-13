@@ -513,6 +513,7 @@
         },
         "heading_6MPpAG": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Video",
             "heading_tag": "h2"
@@ -528,7 +529,8 @@
         "autoplay": false,
         "show_controls": true,
         "video_size": "md",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/Video Apalusa.mov",
+        "external_video_url": "",
         "text_color": "#ffffff"
       }
     },
