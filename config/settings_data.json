@@ -29,6 +29,8 @@
     "product_price_strategy": "max_price",
     "product_color_display": "hide",
     "discount_mode": "percentage",
+    "cart_show_free_shipping_bar": true,
+    "cart_free_shipping_threshold": "1999",
     "social_instagram": "https://www.instagram.com/apalusaleather",
     "social_whatsapp": "https://wa.me/15551234567",
     "favicon": "shopify://shop_images/LogoWhitev2.jpg",
