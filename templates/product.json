@@ -122,10 +122,29 @@
         "title": "Productos relacionados",
         "content": ""
       }
+    },
+    "recently_viewed_products_kq78rM": {
+      "type": "recently-viewed-products",
+      "name": "t:sections.recently_viewed_products.presets.recently_viewed_products.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "color_scheme": "",
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Vistos recientemente",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "recently_viewed_products_kq78rM"
   ]
 }
