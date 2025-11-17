@@ -31,6 +31,19 @@
     "rich_text_yxefkt": {
       "type": "rich-text",
       "blocks": {
+        "richtext_3MFc6E": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "link_QC8dTR": {
+          "type": "link",
+          "settings": {
+            "text": "Email",
+            "url": "mailto:apalusaleather@gmail.com"
+          }
+        },
         "link_DVMapM": {
           "type": "link",
           "settings": {
@@ -54,6 +67,8 @@
         }
       },
       "block_order": [
+        "richtext_3MFc6E",
+        "link_QC8dTR",
         "link_DVMapM",
         "link_pBfBHA",
         "richtext_LJ37rq"
