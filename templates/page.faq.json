@@ -74,6 +74,36 @@
         "content": ""
       }
     },
+    "featured_collections_zRzpGV": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_9cAh8H": {
+          "type": "collection",
+          "settings": {
+            "collection": "mas-vendido",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_9cAh8H"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "recently_viewed_products_xqdm47": {
       "type": "recently-viewed-products",
       "name": "t:sections.recently_viewed_products.presets.recently_viewed_products.name",
@@ -95,6 +125,7 @@
   },
   "order": [
     "faq",
+    "featured_collections_zRzpGV",
     "recently_viewed_products_xqdm47"
   ]
 }
