@@ -40,7 +40,7 @@
           "type": "mega_menu",
           "settings": {
             "menu_item": "Productos",
-            "images_position": "left",
+            "images_position": "right",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
