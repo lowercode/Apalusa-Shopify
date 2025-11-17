@@ -75,7 +75,7 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "image": "shopify://shop_images/Don_Tono_y_yo.jpg",
-        "reveal_on_scroll": true,
+        "reveal_on_scroll": false,
         "image_position": "start",
         "content_width": "sm",
         "remove_vertical_spacing": true
