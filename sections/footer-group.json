@@ -85,7 +85,15 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "",
+            "menu": "productos",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links_49CDr4": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
             "show_menu_title": true,
             "menu_title": ""
           }
@@ -102,6 +110,7 @@
       "block_order": [
         "newsletter",
         "links",
+        "links_49CDr4",
         "text"
       ],
       "settings": {
