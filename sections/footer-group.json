@@ -82,6 +82,14 @@
             "button_text_color": ""
           }
         },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Nosotros",
+            "content": "<p>Ciudad de origen: Guadalajara, Jalisco</p><p>Horario de atención: Lunes a viernes de 10:00 a 18:00 hrs</p>",
+            "enable_follow_on_shop": true
+          }
+        },
         "links": {
           "type": "links",
           "settings": {
@@ -97,21 +105,13 @@
             "show_menu_title": true,
             "menu_title": ""
           }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "Nosotros",
-            "content": "<p>Ciudad de origen: Guadalajara, Jalisco</p><p>Horario de atención: Lunes a viernes de 10:00 a 18:00 hrs</p>",
-            "enable_follow_on_shop": true
-          }
         }
       },
       "block_order": [
         "newsletter",
+        "text",
         "links",
-        "links_49CDr4",
-        "text"
+        "links_49CDr4"
       ],
       "settings": {
         "color_scheme": "",
