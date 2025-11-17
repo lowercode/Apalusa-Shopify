@@ -33,11 +33,21 @@
           "settings": {
             "content": "<h4>Apalusa Leather salió de la unión entre creatividad y oficio. Somos un equipo y juntos creamos accesorios de piel genuina con identidad, calidad y alma mexicana. Cada bolso lleva lo mejor de nosotros dos.</h4>"
           }
+        },
+        "image_3WxTjF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Don_Tono_y_yo.jpg",
+            "width_mode": "custom",
+            "max_width": 390,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
         "heading_JJGpR9",
-        "richtext_ba3RHQ"
+        "richtext_ba3RHQ",
+        "image_3WxTjF"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
@@ -46,39 +56,6 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "image_with_text_wgPhtt": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_d9W9QF": {
-          "type": "heading",
-          "settings": {
-            "text": "Don toño",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_7by3Nh": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_d9W9QF",
-        "richtext_7by3Nh"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/Don_Tono_y_yo.jpg",
-        "reveal_on_scroll": false,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
       }
     },
     "rich_text_4tg74c": {
@@ -107,7 +84,6 @@
   "order": [
     "main",
     "rich_text_D3rGK8",
-    "image_with_text_wgPhtt",
     "rich_text_4tg74c"
   ]
 }
