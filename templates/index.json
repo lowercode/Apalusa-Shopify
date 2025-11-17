@@ -835,7 +835,8 @@
       "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
       "settings": {
         "color_scheme": "",
-        "image_size": "auto",
+        "image_size": "md",
+        "image": "shopify://shop_images/Don_Tono_y_yo.jpg",
         "allow_transparent_header": true,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": false,
@@ -843,7 +844,7 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 68
       }
     },
     "multi-column": {
