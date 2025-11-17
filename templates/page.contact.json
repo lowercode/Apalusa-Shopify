@@ -27,10 +27,50 @@
         "title": "Contacto",
         "content": ""
       }
+    },
+    "rich_text_yxefkt": {
+      "type": "rich-text",
+      "blocks": {
+        "link_DVMapM": {
+          "type": "link",
+          "settings": {
+            "text": "Instagram",
+            "url": "https://instagram.com/apalusa.mx"
+          }
+        },
+        "link_pBfBHA": {
+          "type": "link",
+          "settings": {
+            "text": "Whatsapp",
+            "url": "tel:+523314170174"
+          }
+        },
+        "richtext_LJ37rq": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Correo: apalusaleather@gmail.com</p><p>WhatsApp: +52 3314170174</p><p>Instagram: <a href=\"https://instagram.com/apalusa.mx\"><span style=\"text-decoration:underline\">@apa</span></a><span style=\"text-decoration:underline\">lusaleather</span></p><p>Ciudad de origen: Guadalajara, Jalisco</p><p>Horario de atención: Lunes a viernes de 10:00 a 18:00 hrs</p>"
+          }
+        }
+      },
+      "block_order": [
+        "link_DVMapM",
+        "link_pBfBHA",
+        "richtext_LJ37rq"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
     "main",
-    "contact-form"
+    "contact-form",
+    "rich_text_yxefkt"
   ]
 }
