@@ -14,6 +14,7 @@
       "blocks": {
         "category": {
           "type": "category",
+          "disabled": true,
           "settings": {
             "title": "Order",
             "icon": "none",
@@ -23,22 +24,36 @@
         "question-1": {
           "type": "question",
           "settings": {
-            "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "question": "¿Los productos son de piel auténtica?",
+            "answer": "<p>Sí, todas nuestras piezas están hechas con piel 100% genuina de alta calidad, cuidadosamente seleccionada</p>"
           }
         },
         "question-2": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "question": "¿Realizan envíos a todo México?",
+            "answer": "<p>Sí, hacemos envíos nacionales. El costo de envío y el tiempo de entrega se calcula al finalizar tu compra.</p>"
           }
         },
         "question-3": {
           "type": "question",
           "settings": {
-            "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "question": "¿Puedo personalizar mi bolso?",
+            "answer": "<p>Sí! Ofrecemos la opción de personalizar tu bolsa. Para hacerlo, solo tienes que escribirnos por WhatsApp y con gusto te guiaremos en el proceso. Ahí mismo podrás elegir detalles especiales y dar seguimiento personalizado a tu orden desde el primer mensaje hasta la entrega final.</p>"
+          }
+        },
+        "question_k8YJqQ": {
+          "type": "question",
+          "settings": {
+            "question": "¿Qué pasa si mi bolso llega con algún defecto?",
+            "answer": "<p>Si recibes un producto con algún desperfecto, contáctanos dentro de los primeros tres días hábiles y te daremos una solución.</p>"
+          }
+        },
+        "question_rAjWCT": {
+          "type": "question",
+          "settings": {
+            "question": "¿Dónde puedo ver todos los modelos disponibles?",
+            "answer": "<p>Puedes verlos en nuestra tienda online o seguirnos en Instagram para conocer lanzamientos exclusivos.</p>"
           }
         }
       },
@@ -46,7 +61,9 @@
         "category",
         "question-1",
         "question-2",
-        "question-3"
+        "question-3",
+        "question_k8YJqQ",
+        "question_rAjWCT"
       ],
       "settings": {
         "color_scheme": "",
