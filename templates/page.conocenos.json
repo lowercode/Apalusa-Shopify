@@ -11,10 +11,101 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_D3rGK8": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_ba3RHQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h3>Apalusa Leather salió de la unión entre creatividad y oficio. Somos un equipo y juntos creamos accesorios de piel genuina con identidad, calidad y alma mexicana. Cada bolso lleva lo mejor de nosotros dos.</h3>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ba3RHQ"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_wgPhtt": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_FVWQkh": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_d9W9QF": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_7by3Nh": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FVWQkh",
+        "heading_d9W9QF",
+        "richtext_7by3Nh"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/Materiales_2.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_4tg74c": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_i3DY3E": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>Nuestra misión es ofrecer accesorios de piel genuina que te acompañen en cada paso de tu vida, no como un simple complemento, sino como una extensión de tu estilo, tu fuerza y tu autenticidad.</h4><h4>Cada accesorio en Apalusa es una declaración de intenciones con diseño exclusivo y calidad impecable. Seleccionamos personalmente las mejores pieles en peleterías especializadas, buscando no solo resistencia y durabilidad, sino también texturas que transmiten elegancia y personalidad. Muchas de estas pieles son intervenidas con estampados únicos, diseñados y mandados a hacer exclusivamente para nuestras colecciones, lo que convierte a cada pieza en un objeto irrepetible.</h4><h4>El resultado es una colección de bolsos que combina tradición artesanal con un enfoque moderno y audaz. Apalusa es para quienes se atreven a destacar con estilo propio, para quienes aprecian el lujo que se siente, se huele y se cuenta con orgullo.</h4>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_i3DY3E"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_D3rGK8",
+    "image_with_text_wgPhtt",
+    "rich_text_4tg74c"
   ]
 }
