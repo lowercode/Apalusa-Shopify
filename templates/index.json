@@ -598,6 +598,7 @@
         "before_gLkfrt",
         "after_cCUUWJ"
       ],
+      "disabled": true,
       "name": "t:sections.before_after.presets.before_after.name",
       "settings": {
         "color_scheme": "",
@@ -984,6 +985,7 @@
         "image_with_text_VXPt8x",
         "image_with_text_m8JrAj"
       ],
+      "disabled": true,
       "name": "t:sections.multi_column.presets.multi_column.name",
       "settings": {
         "color_scheme": "",
@@ -997,6 +999,24 @@
         "subheading": "Instagram",
         "title": "@apalusaleather",
         "content": ""
+      }
+    },
+    "1763580872f4be9002": {
+      "type": "apps",
+      "blocks": {
+        "square_instagram_feed_insta_feed_WVJiHm": {
+          "type": "shopify://apps/square-instagram-feed/blocks/insta-feed/8c9f3786-8bb5-488d-a397-b1285ed978df",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "square_instagram_feed_insta_feed_WVJiHm"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
       }
     }
   },
@@ -1020,6 +1040,7 @@
     "image_with_text_overlay_n6ipQa",
     "multi-column",
     "newsletter",
-    "multi_column_yU3MFp"
+    "multi_column_yU3MFp",
+    "1763580872f4be9002"
   ]
 }
