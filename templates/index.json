@@ -615,10 +615,9 @@
     "image-with-text-scroll": {
       "type": "images-with-text-scroll",
       "blocks": {
-        "image_with_text_h7Wxqg": {
+        "image_with_text_987JWQ": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/IMG_3830.jpg",
             "subheading": "",
             "title": "Title",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
@@ -627,13 +626,13 @@
             "link_style": "solid"
           }
         },
-        "image_with_text_9Rg9E3": {
+        "image_with_text_h7Wxqg": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/IMG_3064.jpg",
+            "image": "shopify://shop_images/IMG_3830.jpg",
             "subheading": "",
             "title": "Title",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "content": "<p>Ofrecer piezas de alta calidad, con alma mexicana y de piel resistente y durable, con diseños que destaquen y denoten autenticidad.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -665,8 +664,8 @@
         }
       },
       "block_order": [
+        "image_with_text_987JWQ",
         "image_with_text_h7Wxqg",
-        "image_with_text_9Rg9E3",
         "item-2",
         "item-3"
       ],
