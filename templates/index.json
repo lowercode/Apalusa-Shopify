@@ -618,6 +618,7 @@
         "image_with_text_h7Wxqg": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/IMG_3830.jpg",
             "subheading": "",
             "title": "Title",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
