@@ -618,9 +618,10 @@
         "image_with_text_987JWQ": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Facetune_11-11-2025-08-44-49.jpg",
             "subheading": "",
-            "title": "Title",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "title": "NUESTRO COMPROMISO:",
+            "content": "<p>Ofrecer piezas de alta calidad, con alma mexicana y de piel resistente y durable, con diseños que destaquen y denoten autenticidad.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
