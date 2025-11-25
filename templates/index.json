@@ -631,7 +631,7 @@
           "settings": {
             "image": "shopify://shop_images/IMG_3830.jpg",
             "subheading": "",
-            "title": "Title",
+            "title": "Nuestro COMPROMISO:",
             "content": "<p>Ofrecer piezas de alta calidad, con alma mexicana y de piel resistente y durable, con diseños que destaquen y denoten autenticidad.</p>",
             "link_text": "",
             "link_url": "",
@@ -649,25 +649,12 @@
             "link_url": "",
             "link_style": "solid"
           }
-        },
-        "item-3": {
-          "type": "image_with_text",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "solid"
-          }
         }
       },
       "block_order": [
         "image_with_text_987JWQ",
         "image_with_text_h7Wxqg",
-        "item-2",
-        "item-3"
+        "item-2"
       ],
       "settings": {
         "color_scheme": "",
