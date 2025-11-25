@@ -615,13 +615,24 @@
     "image-with-text-scroll": {
       "type": "images-with-text-scroll",
       "blocks": {
-        "item-1": {
+        "image_with_text_h7Wxqg": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/Diseno.jpg",
             "subheading": "",
-            "title": "EL DISEÑO",
-            "content": "<p>Nuestras piezas son creadas siempre con intención de marcar la diferencia, explorar nuestra creatividad y de quien porta la pieza. Nos atrevemos a ser diferentes. </p><p>Retamos a la moda, y buscamos originalidad.</p>",
+            "title": "Title",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_9Rg9E3": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3064.jpg",
+            "subheading": "",
+            "title": "Title",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -653,13 +664,14 @@
         }
       },
       "block_order": [
-        "item-1",
+        "image_with_text_h7Wxqg",
+        "image_with_text_9Rg9E3",
         "item-2",
         "item-3"
       ],
       "settings": {
         "color_scheme": "",
-        "background_image": "shopify://shop_images/fondo.jpg",
+        "background_image": "shopify://shop_images/Bolsos.jpg",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h3",
