@@ -497,6 +497,16 @@
     "featured_collections_V8jpRg": {
       "type": "featured-collections",
       "blocks": {
+        "collection_bxR67X": {
+          "type": "collection",
+          "settings": {
+            "collection": "magna",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
         "collection_tpwBeT": {
           "type": "collection",
           "settings": {
@@ -509,6 +519,7 @@
         }
       },
       "block_order": [
+        "collection_bxR67X",
         "collection_tpwBeT"
       ],
       "name": "Featured collections | Ideales para viajar",
