@@ -58,6 +58,16 @@
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
+        "collection_DPRC3U": {
+          "type": "collection",
+          "settings": {
+            "collection": "cangureras",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
         "collection_RQGGbQ": {
           "type": "collection",
           "settings": {
@@ -100,6 +110,7 @@
         }
       },
       "block_order": [
+        "collection_DPRC3U",
         "collection_RQGGbQ",
         "collection-1",
         "collection_zEeT6k",
